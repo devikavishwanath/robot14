@@ -419,7 +419,7 @@ background-color: rgba(188, 184, 184, 0.25);
 }
 
 .elecSection{
-	height: 550px;
+	height: 2000px;
 padding-top:60px;
 text-align: left;
 background-color: white;
@@ -438,6 +438,7 @@ background-color: white;
 	position: center;
 	float: center;
 	margin: auto;
+	padding-top: 20px;
 }
 
 #improv{
