@@ -26,6 +26,12 @@ p{
 	color: rgb(0,0, 0);
 	
 }
+.header li:hover{
+	color: pink; 
+}
+.header li:active{
+	color: #707078;
+}
 .header button{
 	display:block;
 	font-family: raleway, sans-serif;
