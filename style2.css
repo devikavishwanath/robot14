@@ -277,6 +277,11 @@ p{
 .column3{ float: left; width: 33%; position:relative;}
 .column2{ float: left; width: 33%;position:relative;}
 
+.elecRow{width: 100%;}
+.eleccolumn{display: inline-block; width: 30%;position:relative; margin: 20px; padding:10px; background-color: rgba(188, 184, 184, 0.25);
+;}
+.eleccolumn img{height: 300px; display: block; margin: 0 auto;}
+
 .columnLeft{float: left;width:50%;}
 
 
@@ -448,6 +453,10 @@ background-color: white;
 	float: center;
 	padding-top: 80px;
 	margin: auto;
+
+	margin-bottom: 30px;
+	padding-top: 20px;
+
 }
 
 #improv{
