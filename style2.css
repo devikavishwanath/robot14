@@ -439,12 +439,24 @@ background-color: white;
 
 .IRIMG{
 	display: block;
-	height: 300px;
+	height: 400px;
 	position: center;
 	float: center;
+	padding-top: 50px;
 	margin: auto;
+}
+
+.hbridgeschemIMG{
+	display: block;
+	height: 500px;
+	position: center;
+	float: center;
+	padding-top: 80px;
+	margin: auto;
+
 	margin-bottom: 30px;
 	padding-top: 20px;
+
 }
 
 #improv{
@@ -689,6 +701,45 @@ h33{
   letter-spacing: 1px;
   font-size: 25px;
   font-weight: 500;
+
+}
+
+h34{
+ 
+  font-family: 'raleway';
+  
+  
+  
+  text-align: center;
+
+  
+  letter-spacing: 1px;
+  font-size: 12px;
+
+  margin: auto;
+  padding-top: 30px;
+  display: block;
+  float: center;
+
+}
+
+h35{
+ 
+  font-family: 'raleway';
+  
+  
+  
+  text-align: center;
+
+  
+  letter-spacing: 1px;
+  font-size: 12px;
+
+  margin: auto;
+  padding-top: 0px;
+  display: block;
+  float: center;
+  padding-bottom: 70px;
 
 }
 
