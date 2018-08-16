@@ -278,12 +278,16 @@ p{
 .column2{ float: left; width: 33%;position:relative;}
 
 .columnLeft{float: left;width:50%;}
-.columnRight{float: left;width:50%;}
+.columnRight{float: right;width:50%;}
 .columnSection{width:70%;margin: auto; padding:4%; height: 600px; background-color:white;}
 .columnSection2{width:70%;margin: auto; padding:4%; height: 600px; background-color:white;}
 .columnSection img{height: 270px; width: 60%; transform: translate(10%);}
 .columnSection2 img{ height: 270px; transform: translate(15%);}
+.columnSection3{width:35%;margin: auto; padding:4%; height: 600px; background-color:white;}
+.columnSection3 img{height: 270px;transform: translate(15%);}
 .mechLabel{display: inline-block; width: 100%; height: 60px;}
+.row{position: relative; margin-bottom: 60px;}
+.row2{position: relative; margin-bottom: 720px;}
 
 @media screen and (max-width: 100px) {
     .column1{ float: none; width: 100%; margin: auto; }
@@ -392,7 +396,7 @@ background-color: white;
 }
 
 .mechSection{
-	height: 800px;
+	height: 2200px;
 padding-top:60px;
 text-align: left;
 background-color: rgba(188, 184, 184, 0.25);
