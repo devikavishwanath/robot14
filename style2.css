@@ -495,7 +495,7 @@ background-color: white;
 width: 50%;
 margin: 0 auto;
 padding-left:150px;
-padding-right:10px;
+padding-right:0px;
 float:left;
 text-align: left;
 /*display: inline-block;*/
@@ -584,17 +584,18 @@ font-size: 15px ;
 
 
 .challengeImage{
-width:40%;
+height: 385px;
 float:left;
-padding-left: 20px;
-padding-right: 10px;	
-display: inline-block;
+padding-right: 80px;	
+padding-top: 50px;
+display: block;
 filter: brightness(130%);
+margin: 0 auto;
 }
 .challengeImage img{
-	padding-left: 10px;
-max-width:70%;
-max-height:80%;
+	
+max-width:80%;
+max-height:90%;
 }
 
 .challengeImage2{
