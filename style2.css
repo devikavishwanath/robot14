@@ -434,11 +434,20 @@ background-color: white;
 
 .IRIMG{
 	display: block;
-	height: 300px;
+	height: 400px;
 	position: center;
 	float: center;
+	padding-top: 50px;
 	margin: auto;
-	padding-top: 20px;
+}
+
+.hbridgeschemIMG{
+	display: block;
+	height: 500px;
+	position: center;
+	float: center;
+	padding-top: 80px;
+	margin: auto;
 }
 
 #improv{
@@ -686,3 +695,21 @@ h33{
 
 }
 
+h34{
+ 
+  font-family: 'raleway';
+  
+  
+  
+  text-align: center;
+
+  
+  letter-spacing: 1px;
+  font-size: 12px;
+
+  margin: auto;
+  padding-top: 30px;
+  display: block;
+  float: center;
+
+}
