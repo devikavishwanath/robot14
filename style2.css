@@ -197,8 +197,7 @@ p{
 	padding-top:50px;
 	padding-right: 130px;
 	padding-left: 0px;	
-	padding-bottom: 1000px; 
-	margin-bottom: 1000px;
+	margin-bottom: 300px;
 	
 }
 .panel img{	width: 65%; height: 65%; filter:brightness(100%); align-items: center;   }
@@ -273,7 +272,7 @@ h2{
   letter-spacing: 0px;
   font-size: 35px;
   font-weight: 500;
-  
+
 
 
 	
@@ -302,18 +301,18 @@ background-color: rgba(188, 184, 184, 0.25);
 
 #mech{
 	position:relative;
-	top:0px;
+	top:-22px;
 	width: 100%;
 	margin: auto;
-	margin-top: 2000px;
-
+	
 }
 
 .mechSection{
 	height: 550px;
 padding-top:60px;
 text-align: left;
-background-color: white
+background-color: rgba(188, 184, 184, 0.25);
+
 
 }
 
@@ -329,7 +328,7 @@ background-color: white
 	height: 550px;
 padding-top:60px;
 text-align: left;
-background-color: white
+background-color: white;
 
 }
 
@@ -342,12 +341,11 @@ background-color: white
 	margin: auto;
 }
 
-.softSection{
+.softwareSection{
 	height: 550px;
-padding-top:60px;
-paddint-bottom:100px;
-text-align: left;
-background-color: white
+	padding-top:60px;
+	text-align: left;
+	background-color: rgba(188, 184, 184, 0.25);
 
 }
 
