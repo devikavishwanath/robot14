@@ -443,6 +443,7 @@ background-color: white;
 	position: center;
 	float: center;
 	padding-top: 50px;
+
 	margin: auto;
 }
 
@@ -451,7 +452,7 @@ background-color: white;
 	height: 500px;
 	position: center;
 	float: center;
-	padding-top: 80px;
+	padding-top: 1000px;
 	margin: auto;
 
 	margin-bottom: 30px;
@@ -726,6 +727,7 @@ h34{
   margin: auto;
   padding-top: 30px;
   display: block;
+  padding-bottom: 50px;
   float: center;
 
 }
