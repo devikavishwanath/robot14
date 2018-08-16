@@ -278,7 +278,7 @@ p{
 .column2{ float: left; width: 33%;position:relative;}
 
 .elecRow{width: 100%;}
-.eleccolumn{display: inline-block; width: 30%;position:relative; margin: 20px; padding:30px ; background-color: rgba(188, 184, 184, 0.25);
+.eleccolumn{display: inline-block; width: 30%; height: 800px; position:relative; margin: 20px; padding:30px ; background-color: rgba(188, 184, 184, 0.25);
 ;}
 .eleccolumn img{height: 300px; display: block; margin: 0 auto;}
 
@@ -424,7 +424,7 @@ background-color: rgba(188, 184, 184, 0.25);
 }
 
 .elecSection{
-	height: 2000px;
+	height: 2200px;
 padding-top:60px;
 text-align: left;
 background-color: white;
