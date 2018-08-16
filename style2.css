@@ -207,11 +207,19 @@ p{
 .column3{ float: left; width: 33%; position:relative;}
 .column2{ float: left; width: 33%;position:relative;}
 
+.columnleftMech{float: left;width:50%; position:relative;}
+.columnrightMech{float: left;width:50%; position:relative;}
+
 @media screen and (max-width: 100px) {
     .column1{ float: none; width: 100%; margin: auto; }
     .column3{ float: none; width: 100%; margin: auto;}
     .column2{ display: block; width: 100%; margin: auto;	}
 }
+
+
+
+
+
 
 .column1:hover .label{
 	
@@ -383,6 +391,29 @@ max-width:70%;
 max-height:80%;
 }
 
+.mechSection img{
+width:70%;
+
+float:right;
+margin-right: 100px;
+padding-left: 20px;
+padding-right: 10px;
+filter: brightness(100%);
+}
+.mechSection img{
+	padding-left: 10px;
+max-width:70%;
+max-height:80%;
+}
+
+.mechSection h3{
+	text-align: center;
+}
+
+.mechLabel{
+
+}
+
 
 
 @media screen and (max-width: 100px) {
@@ -390,6 +421,14 @@ max-height:80%;
     .challengeImage{ float: none; width: 80%; margin: 0 auto; padding:0;}
 	.aboutUs{height:1150px;}
 	.softSection{height: 1150px}
+}
+
+h3{
+	color: black;
+  font-size: 20px;
+  font-family: 'raleway';
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h31{
