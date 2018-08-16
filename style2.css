@@ -194,10 +194,10 @@ p{
 
 
 .panel{
-	padding-top:50px;
+	padding-top:0px;
 	padding-right: 130px;
 	padding-left: 0px;	
-	margin-bottom: 300px;
+	margin-bottom: 350px;
 	
 }
 .panel img{	width: 65%; height: 65%; filter:brightness(100%); align-items: center;   }
@@ -210,7 +210,9 @@ p{
 .columnLeft{float: left;width:50%;}
 .columnRight{float: left;width:50%;}
 .columnSection{width:70%;margin: auto; padding:4%; height: 600px; background-color:white;}
-.columnSection img{height: 270px; display:block; margin:auto;}
+.columnSection2{width:70%;margin: auto; padding:4%; height: 600px; background-color:white;}
+.columnSection img{height: 60%; width: 60%; transform: translate(10%);}
+.columnSection2 img{ transform: translate(15%);}
 .mechLabel{display: inline-block; width: 100%; height: 60px;}
 
 @media screen and (max-width: 100px) {
@@ -306,7 +308,8 @@ h2{
 height: 1100px;
 padding-top:60px;
 text-align: left;
-background-color: rgba(188, 184, 184, 0.25);
+/*background-color: rgba(188, 184, 184, 0.25);*/
+background-color: white;
 
 }
 
@@ -343,7 +346,19 @@ background-color: white;
 
 }
 
+#improv{
+	position:relative;
+	top:-22px;
+	width: 100%;
+	margin: auto;
+}
 
+.improvSection{
+	height: 550px;
+padding-top:60px;
+text-align: left;
+background-color: white;
+}
 
 #soft{
 	position:relative;
@@ -365,7 +380,7 @@ background-color: white;
 .text{
 width: 50%;
 margin: 0 auto;
-padding-left:100px;
+padding-left:150px;
 padding-right:10px;
 float:left;
 text-align: left;
@@ -378,16 +393,16 @@ color: #707078;
 text-align: left;
 
 font-family: 'raleway';
-font-size: 14;
+font-size: 15px;
 }
 
 
 .text2{
 width: 50%;
 margin: auto;
-padding-left:100px;
+padding-left:10px;
 padding-right:10px;
-padding-top: 70px;
+padding-top: 130px;
 float:right;
 text-align: left;
 /*display: inline-block;*/
@@ -399,7 +414,7 @@ color: #707078;
 text-align: left;
 
 font-family: 'raleway';
-font-size: 14;
+font-size: 15px ;
 }
 
 
