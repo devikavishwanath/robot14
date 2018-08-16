@@ -279,6 +279,9 @@ p{
 
 .columnLeft{float: left;width:50%;}
 .columnRight{float: left;width:50%;}
+.columnLeftelec{float: left;width:50%;}
+.columnRightelec{float: left;width:50%;}
+
 .columnSection{width:70%;margin: auto; padding:4%; height: 600px; background-color:white;}
 .columnSection2{width:70%;margin: auto; padding:4%; height: 600px; background-color:white;}
 .columnSection img{height: 270px; width: 60%; transform: translate(10%);}
@@ -414,6 +417,19 @@ padding-top:60px;
 text-align: left;
 background-color: white;
 
+}
+
+.elecSection img{
+	align-content: center;
+	align-self: center;
+	align-items: center;
+}
+
+.IRIMG{
+	height: 300px;
+	position: center;
+	float: center;
+	margin: auto;
 }
 
 #improv{
@@ -660,3 +676,4 @@ h33{
   font-weight: 500;
 
 }
+
