@@ -293,7 +293,7 @@ h1 {
 
 /* Content */
 .content {
-    background-color: white;
+   	background-color: rgba(188, 184, 184, 0.0);
     padding: 10px;
 }
 
@@ -426,4 +426,9 @@ h3{
     width: 70%;
 }
 
-
+li{
+	
+		font-family: 'raleway';
+	color: #707078;
+	font-size: 13px;
+}
