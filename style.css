@@ -114,7 +114,7 @@
 	/*background-color: rgba(188, 184, 184, 0.25);*/
 }
 .aboutRow{
-	padding-top:60px;
+	padding-top:30px;
 	height:400px;
 }
 .textLeft{
@@ -141,6 +141,7 @@ filter: brightness(100%);
 	top: 50%;
 	transform: translateY(-50%);
 }
+
 .textRight{
 	height:100%;
 	width: 50%;
@@ -163,7 +164,26 @@ filter: brightness(100%);
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+@media screen and (max-width: 600px) {
+	.challengeImage{
+		width:100%;
+	}
+	.textLeft{
+		width:100%;
+	}
+	
 }
+@media screen and (max-width: 600px) {
+	.challengeImage2{
+		width:100%;
+	}
+	.textRight{
+		width:100%;
+	}
+	
+}
+
 .panel{
 	padding-top:5;
 	height: 300px;
@@ -180,10 +200,10 @@ filter: brightness(100%);
 .column3{ float: left; width: 33%; position:relative;}
 .column2{ float: left; width: 33%; position:relative;}
 
-@media screen and (max-width: 500px) {
-    .column1{ float: none; width: 80%; margin: auto; }
-    .column3{ float: none; width: 80%; margin: auto; }
-    .column2{ display: block; width: 80%; margin: auto;}
+@media screen and (max-width: 600px) {
+    .column1{ float: none; width: 100%; margin: 30px auto; }
+    .column3{ float: none; width: 100%; margin: 30px auto; }
+    .column2{ float: none; width: 100%; margin: 30px auto;}
 }
 .column1:hover .imgLabel{
 	
