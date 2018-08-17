@@ -173,27 +173,27 @@ filter: brightness(130%);
  text-align: center;
 }
 	
-.column1{ float: left; width: 33% }
-.column3{ float: left; width: 33% }
-.column2{ float: left; width: 33% }
+.column1{ float: left; width: 33%; position:relative;}
+.column3{ float: left; width: 33%; position:relative;}
+.column2{ float: left; width: 33%; position:relative;}
 
 @media screen and (max-width: 500px) {
     .column1{ float: none; width: 80%; margin: auto; }
     .column3{ float: none; width: 80%; margin: auto; }
     .column2{ display: block; width: 80%; margin: auto;}
 }
-.column1:hover .label{
+.column1:hover .imgLabel{
 	
 	opacity:0.8;
 
 }
 
-.column2:hover .label{
+.column2:hover .imgLabel{
 	
 	opacity:0.8;
 
 }
-.column3:hover .label{
+.column3:hover .imgLabel{
 	
 
 	opacity:0.8;
@@ -201,6 +201,25 @@ filter: brightness(130%);
 
 }
 
+.imgLabel{
+	padding-top: 40px;
+
+	
+  bottom: 0;
+  left: 40px;
+  right: 0;
+  margin-right: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  float: center;
+  filter:brightness(200%);
+  width:90%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  position: absolute;
+}
 
 
 h2{
