@@ -166,6 +166,7 @@ filter: brightness(100%);
 }
 .panel{
 	padding-top:5;
+	height: 800px;
 }
 .panel img{	display: block; width: 50%;height: 200px; margin:auto;}
 .panel p{
@@ -200,7 +201,11 @@ filter: brightness(100%);
 	filter: brightness(200%);
 
 }
-
+.panel:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .imgLabel{
   bottom: 0;
   left: 100px;
@@ -224,7 +229,8 @@ h1 {
 }
 .mechSection{
 	background-color: rgba(188, 184, 184, 0.25);
-<<<<<<< HEAD
+	margin-top: 60px;
+
 }
 
 .row {
@@ -241,9 +247,18 @@ h1 {
 }
 
 /* Create four equal columns that floats next to each other */
+.row img{
+	height: 300px;
+}
 .column {
     float: left;
     width: 40%;
+}
+.columnSingle{
+    width: 40%;
+    padding-left: 30%;
+	padding-right: 30%;
+	padding-top: 30px;
 }
 
 /* Clear floats after rows */ 
@@ -259,21 +274,16 @@ h1 {
     padding: 10px;
 }
 
-<<<<<<< HEAD
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
-    }
-}
-=======
->>>>>>> f7cb05a4331e653ac85e88248f059eb476f1ae56
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
     }
+	.columnSingle{
+		width: 100%;
+	}
 }
 
 
