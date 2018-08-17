@@ -109,12 +109,10 @@
 .aboutUs{
 	padding-top:60px;
 	width: 80%;
-	text-align: left;
 	margin: 0 auto;
 	/*background-color: rgba(188, 184, 184, 0.25);*/
 }
 .aboutRow{
-	padding-top:30px;
 	height:400px;
 }
 .textLeft{
@@ -122,6 +120,7 @@
 	width: 50%;
 	float:left;
 	display: inline-block;
+	
 	
 }
 .challengeImage{
@@ -138,7 +137,7 @@ filter: brightness(100%);
 	padding-left: 30px;
 	min-height:70%;
 	position: relative;
-	top: 50%;
+	top: 40%;
 	transform: translateY(-50%);
 }
 
@@ -183,11 +182,15 @@ filter: brightness(100%);
 	}
 	
 }
-
+.aboutRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .panel{
 	padding-top:5;
 	height: 300px;
-	backg
+	margin-top: 60px;
 }
 
 .panel img{	display: block; width: 50%;height: 200px; margin:auto;}
@@ -253,7 +256,7 @@ h1 {
 	background-color: rgba(188, 184, 184, 0.25);
 	margin-top: 60px;
 	padding-bottom: 60px;
-
+	padding-top: 0px;
 }
 
 .row {
