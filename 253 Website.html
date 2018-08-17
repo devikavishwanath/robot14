@@ -210,14 +210,49 @@
 			<div class="blankrow"></div>
 			<img src ="irSchematic.png" style="width:80%;" class="center">
 
-			<p class="center">Claw asldfjlaksjd falksjdflasdflkjjjjjjjjjjjjjjjjjjjjjjjjajsdkf</p>
+			<p>
+						<br>- The IR circuit detects and distinguishes between 10kHz signal and 1kHz signal emitted from an IR beacon.
+						<br>
+						<br>
+						  - The outputs from the circuit is fed into the Analog inputs of the TINAH. 
+						<br>
+						<br>
+						- The OpAmps are easily replaceable since we soldered 8 pin sockets onto the PCB.
+						<br>
+						<br>
+						- Due to the modular design of the PCB, it was very easy to debug the IR circuit.
+						<br>
+						<br>
+						- Using a potentiometer helped us to adjust the gain of the amplifier according to different IR beacons. 
+						<br>
+						<br>
+						- The IR circuit was one of the most reliable components of our robot. 
+						<br>
+						<br>
+					</p>
+					
 
 			<div class="blankrow"></div>
 
 
 			<img src ="hbridge schematic.png" style="width:80%;" class="center">
 
-			<p class="center">Claw asldfjlaksjd falksjdflasdflkjjjjjjjjjjjjjjjjjjjjjjjjajsdkf</p>
+			<p>
+						<br>- Although the TINAH has built in H-bridges, it can supply only limited current; therefore, we used external H-bridges.
+						<br>
+						<br>
+						  - We supplied a regulated voltage of 15V to the motors from the LiPo battery.
+						<br>
+						<br>
+						- The MOSFETs we used for the H-bridge were fully replaceable since we used female header pins on the PCB. This saved us a lot of time since we did not have to remake PCBs. 
+						<br>
+						<br>
+						- The well-thought-out compact design helped us to fit the H-bridges under the chassis. 
+						<br>
+						<br>
+						
+					</p>
+					
 
 
 			<div class="blankrow"></div>
@@ -226,9 +261,21 @@
 			<div class="row">
   <div class="column1">
     <div class="content">
-      <img src="Distance_Sensor.png" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <img src="DistanceSensor.jpg" alt="Mountains" style="width:100%">
+      <h3>Object Detection</h3>
+      <p>
+						<br>- We used two VL53L0X Time-of-Flight distance sensors to detect the Ewoks. 
+						<br>
+						<br>
+						  - These lidar sensors gave us very accurate distance readings compared to IR sensors. 
+						<br>
+						<br>
+						- We kept our left sensor on shutdown till we reached the second edge, and we turned off our right sensor after we detected IR. This allowed us to avoid the robot detecting the archway and the stormtroopers. 
+						<br>
+						<br>
+						
+					</p>
+					
     </div>
   </div>
   <div class="column2">
