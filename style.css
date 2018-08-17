@@ -399,6 +399,9 @@ p{
     width: 50%;
 }
 
+.blankrow{
+	height: 30px;
+}
 .codeDiagram {
     background-color: white;
     padding: 10px;
