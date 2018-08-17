@@ -165,7 +165,6 @@ filter: brightness(130%);
 }
 .panel{
 	padding-top:5;
-	background-color:red;
 }
 .panel img{	display: block; width: 50%;height: 200px; margin:auto;}
 .panel p{
@@ -181,6 +180,44 @@ filter: brightness(130%);
     .column1{ float: none; width: 80%; margin: auto; }
     .column3{ float: none; width: 80%; margin: auto; }
     .column2{ display: block; width: 80%; margin: auto;}
+}
+.column1:hover .label{
+	
+	opacity:0.8;
+
+}
+
+.column2:hover .label{
+	
+	opacity:0.8;
+
+}
+.column3:hover .label{
+	
+
+	opacity:0.8;
+	filter: brightness(200%);
+
+}
+
+.imgLabel{
+	  padding-top: 40px;	
+	  bottom: 0;
+	  left: 40px;
+	  right: 0;
+	  margin-right: 0px;
+	  margin-top: 20px;
+	  margin-bottom: 0px;
+	  float: center;
+	  filter:brightness(200%);
+	  position:  absolute ;
+	  width:90%;
+	  height: 100%;
+	  opacity: 0;
+	  transition: .5s ease;
+  /*background-color: #707078;*/
+  /*background-color: #454851;*/
+	  background-color: white;
 }
 
 h2{
