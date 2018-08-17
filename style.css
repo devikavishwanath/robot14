@@ -115,7 +115,7 @@
 }
 .aboutRow{
 	padding-top:60px;
-	height:400px;
+	height:500px;
 }
 .textLeft{
 	height:100%;
@@ -163,7 +163,25 @@ filter: brightness(130%);
 	top: 50%;
 	transform: translateY(-50%);
 }
+.panel{
+	padding-top:5;
+	background-color:red;
+}
+.panel img{	display: block; width: 50%;height: 200px; margin:auto;}
+.panel p{
+ font-family: 'roboto',sans-serif;
+ text-align: center;
+}
+	
+.column1{ float: left; width: 33% }
+.column3{ float: left; width: 33% }
+.column2{ float: left; width: 33% }
 
+@media screen and (max-width: 500px) {
+    .column1{ float: none; width: 80%; margin: auto; }
+    .column3{ float: none; width: 80%; margin: auto; }
+    .column2{ display: block; width: 80%; margin: auto;}
+}
 
 h2{
 	font-family: 'raleway', sans-serif;
