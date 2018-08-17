@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 <!-- Include necessary fonts and stylesheet-->
 	<head>
@@ -146,30 +147,60 @@
 <a id='mech'></a>
 <div id = "mechanical">
 <div class = "mechSection">			
-
+			
+			
+			<div class="blankrow"></div>
+			<h2>Mechanical</h2>
+			<div class="blankrow"></div>
 		<!-- Portfolio Gallery Grid -->
 	<div class="row">
 		<div class="columnSingle">
 			<div class="content">
 			  <img src="claw.png" alt="Mountains" style="width:100%">
-			  <h3>My Work</h3>
-			  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-			</div>
+			  <h3>Chassis</h3>
+			                <p>
+                <ul>
+                    <li>After designing a CAD model of our chassis using Solidworks and Onshape we laser cut individual parts and assembled using tab and slot joint method.</li>
+                    <li>Our final chassis had
+                        <ul>
+                                <li>Space on the rear and underside for electrical components</li>
+                                <li>Claws mounted on the sides of the chassis</li>
+                                <li>A scissor lift/zipline mechanism mounted on the base</li>
+                        </ul>
+                    </li>
+                </ul>          
+            </p>
+</div>
 		</div>
 	</div>
 <div class="row">
   <div class="column">
     <div class="content">
       <img src="claw.png" alt="Mountains" style="width:100%" >
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <h3>Claws</h3>
+      <p>
+        <ul>
+            <li>A claw was mounted on both sides of the robot which allowed for decreased uncertainty in retrieving objects.</li>
+            <li>The small size of the claws allows for the robot to fit between the arch way with ease</li>
+            <li>The claw system was designed to cover as wide range of area as possible allowing for consistent results regardless of object placement.</li>
+            <li>The claws arms were curved to maximize contact area with objects</li>
+            <li>A polycarbonate build allowed the claw mechanism to be extremely robust</li>
+        </ul>
+    </p>
     </div>
   </div>
   <div class="column">
     <div class="content">
     <img src="chasis_design.png" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <h3>Drive Train</h3>
+      <p>
+        <ul>
+            <li>The drive train was designed to allow for a compact chassis and simple chassis</li>
+            <li>The robot is powered using two geared Barber-Coleman motors with a gear ratio of 3:1</li>
+            <li>Motor mounts were designed using Onshape and 3D printed. This dampened the vibrations and provided a secure hold on the motors.</li>
+        </ul>
+      </p>
+       
     </div>
   </div>
   
@@ -178,15 +209,30 @@
   <div class="column">
     <div class="content">
       <img src="claw.png" alt="Mountains" style="width:100%" >
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <h3>Basket Lift</h3>
+      <p>
+        <ul>
+            <li>To return the collected Ewoks back to friendly territory a basket lifting mechanism was utilized in conjunction with the competition surface zipline</li>
+            <li>A scissor lift mounted onto the base of the robot was used to lift the basket and hook onto a metal zipline</li>
+            <li>A Barber-Coleman motor was used with a lead screw to increase and decrease height of the platform</li>
+        </ul>
+ 
+ 
+      </p>
     </div>
   </div>
   <div class="column">
     <div class="content">
     <img src="chasis_design.png" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <h3>Tilt Lift</h3>
+      <p>
+        <ul>
+            <li>To return the first 3 Ewoks back to start the robot included a basket tilting mechanism</li>
+            <li>A servo motor tilts the basket filled with Ewoks when limit switches on the rear of the car are pressed.</li>
+            <li>Allows for certainty in position when carrying out the dropping action</li>
+        </ul>
+ 
+      </p>
     </div>
   </div>
   
@@ -210,14 +256,49 @@
 			<div class="blankrow"></div>
 			<img src ="irSchematic.png" style="width:80%;" class="center">
 
-			<p class="center">Claw asldfjlaksjd falksjdflasdflkjjjjjjjjjjjjjjjjjjjjjjjjajsdkf</p>
+			<p>
+						<br>- The IR circuit detects and distinguishes between 10kHz signal and 1kHz signal emitted from an IR beacon.
+						<br>
+						<br>
+						  - The outputs from the circuit is fed into the Analog inputs of the TINAH. 
+						<br>
+						<br>
+						- The OpAmps are easily replaceable since we soldered 8 pin sockets onto the PCB.
+						<br>
+						<br>
+						- Due to the modular design of the PCB, it was very easy to debug the IR circuit.
+						<br>
+						<br>
+						- Using a potentiometer helped us to adjust the gain of the amplifier according to different IR beacons. 
+						<br>
+						<br>
+						- The IR circuit was one of the most reliable components of our robot. 
+						<br>
+						<br>
+					</p>
+					
 
 			<div class="blankrow"></div>
 
 
 			<img src ="hbridge schematic.png" style="width:80%;" class="center">
 
-			<p class="center">Claw asldfjlaksjd falksjdflasdflkjjjjjjjjjjjjjjjjjjjjjjjjajsdkf</p>
+			<p>
+						<br>- Although the TINAH has built in H-bridges, it can supply only limited current; therefore, we used external H-bridges.
+						<br>
+						<br>
+						  - We supplied a regulated voltage of 15V to the motors from the LiPo battery.
+						<br>
+						<br>
+						- The MOSFETs we used for the H-bridge were fully replaceable since we used female header pins on the PCB. This saved us a lot of time since we did not have to remake PCBs. 
+						<br>
+						<br>
+						- The well-thought-out compact design helped us to fit the H-bridges under the chassis. 
+						<br>
+						<br>
+						
+					</p>
+					
 
 
 			<div class="blankrow"></div>
@@ -226,9 +307,21 @@
 			<div class="row">
   <div class="column1">
     <div class="content">
-      <img src="Distance_Sensor.png" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+      <img src="DistanceSensor.jpg" alt="Mountains" style="width:100%">
+      <h3>Object Detection</h3>
+      <p>
+						<br>- We used two VL53L0X Time-of-Flight distance sensors to detect the Ewoks. 
+						<br>
+						<br>
+						  - These lidar sensors gave us very accurate distance readings compared to IR sensors. 
+						<br>
+						<br>
+						- We kept our left sensor on shutdown till we reached the second edge, and we turned off our right sensor after we detected IR. This allowed us to avoid the robot detecting the archway and the stormtroopers. 
+						<br>
+						<br>
+						
+					</p>
+					
     </div>
   </div>
   <div class="column2">
