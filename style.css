@@ -109,12 +109,10 @@
 .aboutUs{
 	padding-top:60px;
 	width: 80%;
-	text-align: left;
 	margin: 0 auto;
 	/*background-color: rgba(188, 184, 184, 0.25);*/
 }
 .aboutRow{
-	padding-top:30px;
 	height:400px;
 }
 .textLeft{
@@ -122,6 +120,7 @@
 	width: 50%;
 	float:left;
 	display: inline-block;
+	
 	
 }
 .challengeImage{
@@ -138,7 +137,7 @@ filter: brightness(100%);
 	padding-left: 30px;
 	min-height:70%;
 	position: relative;
-	top: 50%;
+	top: 40%;
 	transform: translateY(-50%);
 }
 
@@ -183,11 +182,15 @@ filter: brightness(100%);
 	}
 	
 }
-
+.aboutRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .panel{
 	padding-top:5;
 	height: 300px;
-	backg
+	margin-top: 60px;
 }
 
 .panel img{	display: block; width: 50%;height: 200px; margin:auto;}
@@ -201,9 +204,10 @@ filter: brightness(100%);
 .column2{ float: left; width: 33%; position:relative;}
 
 @media screen and (max-width: 600px) {
-    .column1{ float: none; width: 100%; margin: 30px auto; }
-    .column3{ float: none; width: 100%; margin: 30px auto; }
-    .column2{ float: none; width: 100%; margin: 30px auto;}
+    .column1{ float: none; width: 100%; margin: 30px auto; position:relative;}
+    .column3{ float: none; width: 100%; margin: 30px auto; position:relative;}
+    .column2{ float: none; width: 100%; margin: 30px auto; position:relative;}
+	.panel{height: 1000px;}
 }
 .column1:hover .imgLabel{
 	
@@ -229,15 +233,13 @@ filter: brightness(100%);
     clear: both;
 }
 .imgLabel{
-  bottom: 0;
-  left: 100px;
-  right: 0;
-  margin-right: 0px;
-  margin-top: 80px;
-  margin-bottom: 0px;
-  float: center;
+	float: center; 
+	width: 33%; 
+	position:absolute;
+	bottom: 0;
+  text-align: right;  
   filter:brightness(200%);
-  width:90%;
+  width:100%;
   height: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -253,7 +255,7 @@ h1 {
 	background-color: rgba(188, 184, 184, 0.25);
 	margin-top: 60px;
 	padding-bottom: 60px;
-
+	padding-top: 5px;
 }
 
 .row {
