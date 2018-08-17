@@ -204,9 +204,10 @@ filter: brightness(100%);
 .column2{ float: left; width: 33%; position:relative;}
 
 @media screen and (max-width: 600px) {
-    .column1{ float: none; width: 100%; margin: 30px auto; }
-    .column3{ float: none; width: 100%; margin: 30px auto; }
-    .column2{ float: none; width: 100%; margin: 30px auto;}
+    .column1{ float: none; width: 100%; margin: 30px auto; position:relative;}
+    .column3{ float: none; width: 100%; margin: 30px auto; position:relative;}
+    .column2{ float: none; width: 100%; margin: 30px auto; position:relative;}
+	.panel{height: 1000px;}
 }
 .column1:hover .imgLabel{
 	
@@ -254,7 +255,7 @@ h1 {
 	background-color: rgba(188, 184, 184, 0.25);
 	margin-top: 60px;
 	padding-bottom: 60px;
-	padding-top: 0px;
+	padding-top: 5px;
 }
 
 .row {
