@@ -376,3 +376,28 @@ p{
     margin-right: auto;
     width: 50%;
 }
+
+.codeDiagram {
+    background-color: white;
+    padding: 10px;
+}
+
+h3{
+	font-family: 'raleway', sans-serif;
+	color: rgba(0,0,0,0.80);
+	text-align: center;
+	color: #707078;
+	text-transform: uppercase;
+	font-family: 'raleway', 'Arial Header', sans-serif;  
+	letter-spacing: 0px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.softCenter{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
